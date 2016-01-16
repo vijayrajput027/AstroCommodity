@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/linear_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tvrashiname"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:background="@drawable/border"
+                android:padding="8dp"
+                android:textColor="@color/colorPrimaryDarkTwo"
+                android:text="RASHI NAME"/>
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="6dp"
+                    android:background="@drawable/textviewshape"
+                    android:padding="5dp"
+                    android:textColor="#FFF"
+                    android:textStyle="bold"
+                    android:text="Your Luck Percentage"/>
+            </TableRow>`
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/tvluckpercentage"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.6"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:padding="5dp"
+                    android:layout_marginTop="6dp"
+                    android:background="@drawable/textvresultshap"
+                    />
+            </TableRow>`
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+                <TextView
+                    android:text="Your Lucky No"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:textColor="#FFF"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/textviewshape"                    android:padding="5dp"
+                    android:textStyle="bold"/>
+            </TableRow>`
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+                <TextView
+                    android:id="@+id/tvluckno"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:padding="5dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/textvresultshap"
+                    />
+
+            </TableRow>`
+
+            <TableRow
+                android:id="@+id/tableRow24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:textColor="#FFF"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/textviewshape"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:text="Your Lucky Color"/>
+
+
+            </TableRow>`
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tvluckcolor"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/textvresultshap"
+                    android:padding="5dp"/>
+
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:textColor="#FFF"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/textviewshape"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:text="Your Lucky Gem Stone"/>
+
+            </TableRow>`
+            <TableRow  android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tvluckygemstone"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/textvresultshap"
+                    android:padding="5dp"/>
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:textColor="#FFF"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/textviewshape"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:text="LalKitab Prediction and Remedy"/>
+
+            </TableRow>`
+
+            <TableRow android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+                <TextView
+                    android:id="@+id/tvlalkitab"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="italic"
+                    android:background="@drawable/textvresultshap"
+                    android:padding="5dp"/>
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:textColor="#FFF"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/textviewshape"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:text="Your Favourite Planet"/>
+            </TableRow>`
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tvfavouriteplanet"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/textvresultshap"
+                    android:padding="5dp"/>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:textColor="#FFF"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/textviewshape"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:text="Your Un-Favourite Planet "/>
+            </TableRow>`
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tvunfavourite"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/textvresultshap"                    android:padding="5dp"/>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:textColor="#FFF"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/textviewshape"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:text="Your Auspicious Akshar Or Rasi"/>
+
+            </TableRow>`
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tvauspicious"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/textvresultshap"                    android:padding="5dp"/>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/t2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:textColor="#FFF"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/textviewshape"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:text="Your Inauspicious Akshar Or Rasi "/>
+
+            </TableRow>`
+
+            <TableRow  android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tvinaspicious"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/textvresultshap"
+                    android:padding="5dp"/>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/t3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:textColor="#FFF"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/textviewshape"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:text="Your Show Auspicious Time"/>
+
+            </TableRow>`
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tvshowauspicious"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textStyle="italic"
+                    android:singleLine="false"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/textvresultshap"
+                    android:padding="5dp"/>
+
+            </TableRow>
+            <TableRow
+                android:id="@+id/t4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:textColor="#FFF"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/textviewshape"                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:text="Your Auspicious Work "/>
+
+
+            </TableRow>`
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+                <TextView
+                    android:id="@+id/tvauspiciouswork"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textStyle="italic"
+                    android:singleLine="false"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/textvresultshap"                    android:padding="5dp"/>
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/t5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:textColor="#FFF"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/textviewshape"                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:text="Your Auspicious Food Item"/>
+
+
+            </TableRow>`
+            <TableRow
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tvaspisiousfood"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:singleLine="false"
+                    android:textStyle="italic"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/textvresultshap"
+                    android:padding="5dp"/>
+
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:textColor="#FFF"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/textviewshape"                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:text="Your Inauspicious Food Item"/>
+
+            </TableRow>`
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tvinaspiciousfood"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:singleLine="false"
+                    android:textStyle="italic"
+                    android:layout_marginBottom="50dp"
+                    android:background="@drawable/textvresultshap"
+                    android:padding="5dp"/>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</ScrollView>
+
+
+

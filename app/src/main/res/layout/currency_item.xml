@@ -1,0 +1,26 @@
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:layout_margin="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/relative_currency"
+        android:layout_height="70dp"
+        android:background="@drawable/listview_click">
+
+        <TextView
+            android:id="@+id/tvsubcategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:maxLines="3"
+            android:text="dafdafda"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
+

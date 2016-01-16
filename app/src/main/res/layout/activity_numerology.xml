@@ -1,0 +1,503 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorAccentTwo"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:id="@+id/container_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <EditText
+        android:id="@+id/editDOB"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:hint="Select your Date of Birth"
+        android:gravity="center"
+        android:textColorHint="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/btnsubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/login_btn"
+        android:text="Submit"/>
+</LinearLayout>
+    <TableLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/textviewshape"
+                android:padding="5dp"
+                android:textColor="#FFF"
+                android:textStyle="bold"
+                android:text="FINANCIAL CONDITIONS"/>
+        </TableRow>`
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/tv_finance"
+                android:layout_width="0dp"
+                android:layout_weight="0.6"
+                android:singleLine="false"
+                android:padding="5dp"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/textvresultshap"
+                />
+        </TableRow>`
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <TextView
+                android:text="CARRIERS"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:textColor="#FFF"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/textviewshape"
+                android:padding="5dp"
+                android:textStyle="bold"/>
+        </TableRow>`
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <TextView
+                android:id="@+id/tvcarrier"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:singleLine="false"
+                android:padding="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/textvresultshap"
+                />
+
+        </TableRow>`
+
+        <TableRow
+            android:id="@+id/tableRow24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:textColor="#FFF"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/textviewshape"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:text="HEALTH"/>
+
+
+        </TableRow>`
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tvhealth"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textStyle="italic"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/textvresultshap"
+                android:padding="5dp"/>
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:textColor="#FFF"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/textviewshape"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:text="MARRIAGE PARTNER"/>
+
+        </TableRow>`
+        <TableRow  android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tvmarragepartner"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textStyle="italic"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/textvresultshap"
+                android:padding="5dp"/>
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:textColor="#FFF"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/textviewshape"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:text="YOUR CHARACTERISTICS AS A HUSBAND"/>
+
+        </TableRow>`
+
+        <TableRow android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <TextView
+                android:id="@+id/tvcharashusband"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:textStyle="italic"
+                android:background="@drawable/textvresultshap"
+                android:padding="5dp"/>
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:textColor="#FFF"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/textviewshape"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:text="YOUR CHARACTERISTICS AS A WIFE"/>
+        </TableRow>`
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tvcharaswife"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:singleLine="true"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/textvresultshap"
+                android:padding="5dp"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:textColor="#FFF"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/textviewshape"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:text="FRIENDSHIP"/>
+        </TableRow>`
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tvfriendship"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textStyle="italic"
+                android:singleLine="false"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/textvresultshap"                    android:padding="5dp"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:textColor="#FFF"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/textviewshape"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:text="LUCKY DAYS AND DATE"/>
+
+        </TableRow>`
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tvluckydaydate"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textStyle="italic"
+                android:singleLine="false"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/textvresultshap"                    android:padding="5dp"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/t2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:textColor="#FFF"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/textviewshape"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:text="LUCK IN LOTTERIES"/>
+
+        </TableRow>`
+
+        <TableRow  android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvlucklotteries"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textStyle="italic"
+                android:singleLine="false"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/textvresultshap"
+                android:padding="5dp"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/t3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:textColor="#FFF"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/textviewshape"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:text="LUCKY COLOUR"/>
+
+        </TableRow>`
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tvluckycolor"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textStyle="italic"
+                android:singleLine="false"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/textvresultshap"
+                android:padding="5dp"/>
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/t4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:textColor="#FFF"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/textviewshape"                    android:padding="5dp"
+                android:textStyle="bold"
+                android:text="LUCKY STONE"/>
+
+
+        </TableRow>`
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <TextView
+                android:id="@+id/tvluckystone"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textStyle="italic"
+                android:singleLine="false"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/textvresultshap"                    android:padding="5dp"/>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/t5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:textColor="#FFF"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/textviewshape"                    android:padding="5dp"
+                android:textStyle="bold"
+                android:text="IMPORTANT YEAR"/>
+
+
+        </TableRow>`
+        <TableRow
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tvimportantyear"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:singleLine="false"
+                android:textStyle="italic"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/textvresultshap"
+                android:padding="5dp"/>
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:textColor="#FFF"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/textviewshape"                    android:padding="5dp"
+                android:textStyle="bold"
+                android:text="POSITIVE QUALITIES"/>
+
+        </TableRow>`
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tvpositivequality"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:singleLine="false"
+                android:textStyle="italic"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/textvresultshap"
+                android:padding="5dp"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:textColor="#FFF"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/textviewshape"                    android:padding="5dp"
+                android:textStyle="bold"
+                android:text="NEGATIVE QUALITIES"/>
+
+        </TableRow>`
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tvnegativequality"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:singleLine="false"
+                android:textStyle="italic"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/textvresultshap"
+                android:padding="5dp"/>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
+</ScrollView>
+
+
+
+

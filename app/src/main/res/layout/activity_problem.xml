@@ -1,0 +1,57 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/background_720x1280"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:id="@+id/container_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/container_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+   <Spinner
+       android:layout_below="@+id/container_toolbar"
+       android:id="@+id/categorySpinner"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"></Spinner>
+
+    <Spinner
+       android:layout_below="@+id/categorySpinner"
+        android:layout_marginTop="20dp"
+        android:id="@+id/subCategorySpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Spinner>
+
+    <Spinner
+        android:layout_below="@+id/subCategorySpinner"
+        android:id="@+id/problemSpinner"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Spinner>
+
+    <Button
+        android:layout_below="@+id/problemSpinner"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnsubmit"
+        android:layout_width="match_parent"
+        android:layout_centerHorizontal="true"
+        android:text="GET SOLUTION"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimaryTwo"
+        android:padding="7dp"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/colorAccentTwo"
+android:orientation="vertical" >
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/editname"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="Enter the Name"
+            android:background="@drawable/edt_text_bg"
+            android:padding="8dp"
+            android:textColorHint="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></EditText>
+
+        <EditText
+            android:id="@+id/editEmail"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="Enter the Email"
+            android:textColorHint="@color/white"
+            android:layout_width="match_parent"
+            android:background="@drawable/edt_text_bg"
+            android:padding="8dp"
+            android:layout_height="wrap_content"></EditText>
+        <EditText
+            android:id="@+id/editContactNo"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="Enter the Contact No"
+            android:textColorHint="@color/white"
+            android:layout_width="match_parent"
+            android:background="@drawable/edt_text_bg"
+            android:padding="8dp"
+            android:layout_height="wrap_content"></EditText>
+        <EditText
+            android:id="@+id/editDOB"
+            android:background="@drawable/edt_text_bg"
+            android:padding="8dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="Select Tab to Enter DOB"
+            android:textColorHint="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></EditText>
+        <EditText
+            android:id="@+id/editPOB"
+            android:background="@drawable/edt_text_bg"
+            android:padding="8dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="Enter the Place of Birth"
+            android:textColorHint="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></EditText>
+        <EditText
+            android:id="@+id/editTOB"
+            android:background="@drawable/edt_text_bg"
+            android:padding="8dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="Select Tab to Enter Birth"
+            android:textColorHint="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></EditText>
+        <Button
+            android:id="@+id/btndialogsubmit"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Submit"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/login_btn"
+            android:layout_marginTop="20dp"
+            android:layout_height="match_parent"
+            android:textColor="@color/white"
+            android:layout_width="match_parent" />
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

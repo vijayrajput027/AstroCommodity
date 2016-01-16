@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mohanastrology.commodity">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/guruji"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/MyMaterialTheme.Base.Two">
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ImageDetail"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EnterOTPActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RegistrationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ForgetPasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ReOTPActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".OTPSplashActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CommodityActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CommodityServices"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".IntraDay"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DailyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MonthlyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ProblemActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SolutionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HistoryCategoryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HistoryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DetailRashiphalActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RashiPhalActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PaymentWebViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PaymentStatusActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PredictionActivity"
+            android:label="@string/title_activity_prediction"
+            android:theme="@style/MyMaterialTheme.Base.Two" />
+        <activity
+            android:name=".CategoryActivity"
+            android:label="@string/title_activity_category"
+            android:theme="@style/MyMaterialTheme.Base.Two" />
+        <activity
+            android:name=".SubCategoryActivity"
+            android:label="@string/title_activity_sub_category"
+            android:theme="@style/MyMaterialTheme.Base.Two" />
+        <activity
+            android:name=".NumerologyActivity"
+            android:label="@string/title_activity_numerology"
+            android:theme="@style/MyMaterialTheme.Base.Two" />
+        <activity
+            android:name=".PredictionDetailActivity"
+            android:label="@string/title_activity_prediction_detail"
+            android:theme="@style/MyMaterialTheme.Base.Two" />
+        <activity
+            android:name=".LuckImprovementActivity"
+            android:label="@string/title_activity_luck_improvement"
+            android:theme="@style/MyMaterialTheme.Base.Two" />
+        <activity
+            android:name=".LuckImprvementCategory"
+            android:label="@string/title_activity_luck_imprvement_category"
+            android:theme="@style/MyMaterialTheme.Base.Two" />
+        <activity
+            android:name=".LuckImprovementSubCategory"
+            android:label="@string/title_activity_luck_improvement_sub_category"
+            android:theme="@style/MyMaterialTheme.Base.Two" />
+        <activity
+            android:name=".LuckImrpovementTips"
+            android:label="@string/title_activity_luck_imrpovement_tips"
+            android:theme="@style/MyMaterialTheme.Base.Two" />
+        <activity
+            android:name=".VastuActivity"
+            android:label="@string/title_activity_vastu"
+            android:theme="@style/MyMaterialTheme.Base.Two" />
+        <activity
+            android:name=".VastuCategoryActivity"
+            android:label="@string/title_activity_vastu_category"
+            android:theme="@style/MyMaterialTheme.Base.Two" />
+        <activity
+            android:name=".VasatuSubCategoryActivity"
+            android:label="@string/title_activity_vasatu_sub_category"
+            android:theme="@style/MyMaterialTheme.Base.Two" />
+        <activity
+            android:name=".VastuResult"
+            android:label="@string/title_activity_vastu_result"
+            android:theme="@style/MyMaterialTheme.Base.Two"></activity>
+    </application>
+
+</manifest>

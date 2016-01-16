@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_720x1280"
+    android:orientation="vertical"
+    >
+   
+    <ScrollView   
+        android:id="@+id/scrl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <RelativeLayout 
+        android:id="@+id/rl1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp">
+ <ImageView
+        android:id="@+id/top_banner"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/top_banner"/>
+    
+ <LinearLayout 
+     android:id="@+id/l1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_below="@id/top_banner"
+    android:orientation="horizontal">
+    <ImageButton
+        android:id="@+id/cricket"
+        android:layout_alignParentTop="true"
+        android:layout_width="0dp"
+        android:layout_weight="1.0"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="2dp"
+        android:gravity="center_horizontal"
+        android:background="@drawable/ic_launcher"/>
+ 
+   <ImageButton
+        android:id="@+id/football"
+        android:layout_alignParentTop="true"
+        android:layout_width="0dp"
+        android:layout_weight="1.0"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:gravity="center_horizontal"
+        android:background="@drawable/ic_launcher"/>
+ </LinearLayout>
+ <LinearLayout 
+     android:id="@+id/l2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@id/l1"
+    android:orientation="horizontal">
+   <ImageButton
+        android:id="@+id/tennis"
+        android:layout_alignParentTop="true"
+        android:layout_width="0dp"
+        android:layout_weight="1.0"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginRight="2dp"
+        android:background="@drawable/ic_launcher"/>
+ 
+   <ImageButton
+        android:id="@+id/election"
+        android:layout_alignParentTop="true"
+        android:layout_width="0dp"
+        android:layout_weight="1.0"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:gravity="center_horizontal"
+        android:background="@drawable/ic_launcher"/>
+ </LinearLayout>
+ </RelativeLayout>
+ </ScrollView>
+</RelativeLayout>

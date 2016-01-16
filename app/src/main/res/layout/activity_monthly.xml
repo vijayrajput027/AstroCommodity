@@ -1,0 +1,75 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_720x1280">
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar" />
+
+    <TextView
+        android:id="@+id/priceValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:text=""/>
+
+    <LinearLayout
+      android:id="@+id/relativemonthaly"
+      android:layout_below="@+id/priceValue"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal" >
+
+    <Spinner
+        android:id="@+id/sp_qurter_month"
+        android:layout_width="0dp"
+        android:layout_height="36dp"
+        android:layout_weight="1.0">
+    </Spinner>
+
+    <Spinner
+        android:id="@+id/sp_year"
+        android:layout_width="0dp"
+        android:layout_weight="1.0"
+        android:layout_height="36dp"
+        >
+
+    </Spinner>
+
+    <ImageButton
+        android:id="@+id/addItem"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/addbutton"
+        android:background="@android:color/transparent"/>
+
+</LinearLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="60dp"
+        android:layout_below="@id/relativemonthaly"
+        android:layout_gravity="center"
+        android:src="@android:color/transparent"
+        />
+
+    <Button
+        android:id="@+id/btnprocees"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/white"
+        android:background="@drawable/listview_click"
+        android:text="Submit"/>
+
+</RelativeLayout>
