@@ -114,7 +114,7 @@ public class LuckImprovementActivity extends AppCompatActivity implements Commod
             }
             if (result.equals("1")) {
                 adapter.notifyDataSetChanged();
-                Toast.makeText(getBaseContext(), "Successfully..", Toast.LENGTH_SHORT).show();
+               // Toast.makeText(getBaseContext(), "Successfully..", Toast.LENGTH_SHORT).show();
 
             } else {
                 Toast.makeText(getBaseContext(), "Failed..", Toast.LENGTH_SHORT).show();
